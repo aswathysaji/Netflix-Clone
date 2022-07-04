@@ -19,3 +19,15 @@
     right: 5%;
     width: 2%;
 }
+
+@media(max-width:600px){
+    .navbar{
+        padding: 5%;
+    }
+    .logo{
+        width: 20%;
+    }
+    .avatar{
+        width: 5%;
+    }
+}

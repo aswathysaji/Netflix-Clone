@@ -21,15 +21,30 @@
 .card-image{
     max-height: 250px;
     margin-right: 10px;
+    width: 100%;
     cursor: pointer;
 }
 
 .small-image{
     max-height: 150px;
+    width: 100%;
     margin-right: 10px;
     cursor: pointer;
 }
 
 .card-image:hover,.small-image:hover{
     transform: scale(1.1);
+}
+
+@media ( max-width:600px){
+    .card h2{
+        margin: 5%;
+        font-size: 1.2rem;
+    }
+    .card-image{
+        max-height: 200px;
+    }
+    .small-image{
+        max-height: 100px;
+    }
 }
