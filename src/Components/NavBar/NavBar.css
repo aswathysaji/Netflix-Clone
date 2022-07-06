@@ -6,23 +6,32 @@
     display: flex;
     padding: 2%;
     justify-content: space-between;
+    z-index: 1;
 }
+
+.nav_black{
+    background-color: #111;
+}
+
 
 .logo{
     position: fixed;
     left: 5%;
     width: 10%;
+    object-fit: contain;
 }
 
 .avatar{
     position: fixed;
     right: 5%;
     width: 2%;
+    object-fit: contain;
 }
 
 @media(max-width:600px){
     .navbar{
         padding: 5%;
+        height: 2%;
     }
     .logo{
         width: 20%;
