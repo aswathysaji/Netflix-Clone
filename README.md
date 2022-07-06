@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+![Desktop view](https://github.com/aswathysaji/Netflix-Clone/blob/main/netflix.png?raw=true)
+![Desktop view](https://github.com/aswathysaji/Netflix-Clone/blob/main/netflix1.png?raw=true)
+![Mobile view](https://github.com/aswathysaji/Netflix-Clone/blob/main/netflixmobile.png?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
